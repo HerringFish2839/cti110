@@ -41,7 +41,7 @@ def CheckSideThree(ChosenSideThree):
 def main():
     playAgain = 'yes'
     while playAgain == 'yes' or playAgain == 'y':
-        Playgame2()
+        Playgame()
         print('Do you want to play again? (yes or no)')
         playAgain = input()
 
